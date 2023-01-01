@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+*{
+    font-family: quicksand;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+a.link-sm{
+    color: #728196;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button.btn-primary {
+    background-color: #079911;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-brand{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.link-sm{
+    margin-right: 32px;
+}
+
+.btn-secondary{
+    background-color: white;
+    border-color: black;
+    padding: 13px 27px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.hero-heading-text{
+    margin-top: 120px;
+}
+
+h1.hero-heading{
+    margin-bottom: 24px;
+    font-size: 64px;
+    width: 60%;
+    line-height: 74px;
+    color: #242424;
+}
+
+p.text-p{
+    width: 55%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 56px;
+}
+
+section.hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.column-hero-ilus img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+}
+
+img.ilus-1{
+    margin-top: 25px;
+}
