@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SINAW - Online Course</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="container">
@@ -27,32 +28,32 @@
         <!--Hero-->
         <section class="hero">
             <div class="hero-heading-text">
-                <h1 class="hero-heading">Belajar Apapun Yang Kamu Suka</h1>
-                <p class="text-p">Belajar hal-hal yang kamu suka, apapun itu, mulai dari menari hingga membuat kopi kekinian</p>
-                <button class="btn-primary">Yuk Mulai</button>
-                <button class="btn-secondary">Lihat Pricelist</button>
+                <h1 class="hero-heading" data-aos="fade-right" data-aos-duration="1000">Belajar Apapun Yang Kamu Suka</h1>
+                <p class="text-p" data-aos="fade-down">Belajar hal-hal yang kamu suka, apapun itu, mulai dari menari hingga membuat kopi kekinian</p>
+                <button class="btn-primary" data-aos="fade-down" data-aos-duration="1000">Yuk Mulai</button>
+                <button class="btn-secondary"data-aos="fade-down" data-aos-duration="1000">Lihat Pricelist</button>
             </div>
             <div class="column-hero-ilus">
                 <img class="bg-1"src="assets/img/overlay-hero.svg" alt="" srcset="">
-                <img class="ilus-1"src="assets/img/hero-il.svg" alt="" srcset="">
+                <img class="ilus-1"src="assets/img/hero-il.svg" data-aos="fade-up-left" data-aos-duration="1500"alt="" srcset="">
             </div>
         </section>
         <!--Feature Reason-->
         <section class="reason">
-            <div class="reason-tittle">
+            <div class="reason-tittle" data-aos="fade-up" data-aos-duration="1000">
                 <h1 class="reason-heading">Mengapa Memilih Kami</h1>
                 <p class="text-reason-p">belajar dimana saja, kapan saja</p>
             </div>
             <div class="row-3-col">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
                     <img src="assets/img/time-icn.svg" alt="" srcset="">
                     <h2>Kapan Saja</h2>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="2000">
                     <img src="assets/img/marker-icn.svg" alt="" srcset="">
                     <h2>Dimana Saja</h2>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="2500">
                     <img src="assets/img/dollar-icn.svg" alt="" srcset="">
                     <h2>Harga Terjangkau</h2>
                 </div>
@@ -60,10 +61,10 @@
         </section>
         <!--Feature One-->
         <section class="feature-one">
-            <div class="feature-one-ilus">
+            <div class="feature-one-ilus" data-aos="fade-up-right" data-aos-duration="1500">
                 <img src="assets/img/unbox-real.svg" alt="" srcset="">
             </div>
-            <div class="feature-one-tittle">
+            <div class="feature-one-tittle" data-aos="fade-left" data-aos-duration="2000" >
                 <h1 class="feature-one-heading">Keluar Dari Comfort Zone Kamu</h1>
                 <p class="text-feature-p">Pelajari hal baru, dapatkan skill baru, lihat lebih banyak kesempatan yang akan terbuka dengan skill baru yang kamu pelajar</p>
                 <button class="btn-primary">Yuk Mulai</button>
@@ -71,15 +72,134 @@
         </section>
         <!--Feature two-->
         <section class="feature-two">
-            <div class="feature-two-tittle">
+            <div class="feature-two-tittle" data-aos="zoom-out" data-aos-duration="1000" >
                 <h1 class="feature-two-heading">Dapatkan Pekerjaan Yang Kamu Cintai</h1>
                 <p class="text-feature-p">Dengan skill baru yang kamu pelajari di sini, kamu bisa mendapatkan pekerjaan yang bener2 kamu cintai dan nikmati</p>
                 <button class="btn-primary">Yuk Mulai</button>
             </div>
-            <div class="feature-two-ilus">
+            <div class="feature-two-ilus" data-aos="fade-up-left" data-aos-duration="1500" >
                 <img src="assets/img/love-real.svg" alt="" srcset="">
             </div>
         </section>
+        <!--Pricelist-->
+        <section class="pricing bg-light-green">
+            <div class="heading" data-aos="fade-up" data-aos-duration="1000" >
+                <h1>Pricelist</h1>
+                <p>Kami menawarkan harga yang kompetitif</p>
+            </div>
+            <div class="switcher" data-aos="fade-up" data-aos-duration="1500">
+                <button class="btn-on-tab">Per Bulan</button>
+                <button class="btn-off-tab">Per Course  </button>
+            </div>
+            <div class="row-card-pricing">
+                <div class="card-pricing" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="description-pricing">
+                        <div class="label">
+                            <h2>Pemula</h2>
+                            <h1>0 <span>IDR</span> </h1>
+                        </div>
+                        <div class="feature-list">
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">1 Course Setiap Bulan
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cta-subscribe">
+                        <button class="btn-primary bg-dark">Gas Pol</button>
+                    </div>
+                </div>
+                <div class="card-pricing card-primary" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="description-pricing">
+                        <div class="label">
+                            <h2>Pro</h2>
+                            <h1>100K <span>IDR</span> </h1>
+                        </div>
+                        <div class="feature-list">
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">1 Course Setiap Bulan
+                            </p>
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">Chat Mentor
+                            </p>
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">Forum Diskusi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cta-subscribe">
+                        <button class="btn-primary">Gas Pol</button>
+                    </div>
+                </div>
+                <div class="card-pricing" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="description-pricing">
+                        <div class="label">
+                            <h2>Sultan</h2>
+                            <h1>150K <span>IDR</span> </h1>
+                        </div>
+                        <div class="feature-list">
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">Unlimited course/bulan
+                            </p>
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">Chat Mentor
+                            </p>
+                            <p>
+                                <img src="assets/img/check-circle.svg" alt="" srcset="">Forum Diskusi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cta-subscribe">
+                        <button class="btn-primary bg-dark">Gas Pol</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonial-->
+        <section class="testimonial">
+            <div class="heading-testi" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Testimonial dari customer kami yang sudah puas</h1>
+            </div>
+            <div class="reviewer" data-aos="fade-left" data-aos-duration="2000">
+                <div class="profile-picture">
+                    <img src="assets/img/reviewer.svg" alt="" srcset="">
+                </div>
+                <div class="description-testi">
+                    <h3>“Isinya daging semua”</h3>
+                    <p>Beneran, dari beberapa online course yang saya ikuti, SINAW adalah salah yang terbaik, karena materinya memang to the point dan sangat mudah dipahami.</p>
+                <p class="label-user">- Parjo, Mahasiswa</p>
+                <div class="tab">
+                    <span class="active"></span>
+                    <span class=""></span>
+                    <span class=""></span>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!--Jumobtron-->
+        <section class="jumbotron bg-light-green">
+            <div class="description-jumbotron">
+                <h1>Mulai Belajar di SINAW, <span style="color:#079911;font-size: 48px;">GRATIS</span> Gaes!</h1>
+                <p>Kamu bisa mulai belajar di SINAW secara gratis dan akan mendapatkan satu course setiap bulannya.</p>
+            </div>
+            <div class="single-centered-cta">
+                <button class="btn-primary">Yuk Mulai</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="logo">
+                <img src="assets/img/logo-text.svg" alt="" srcset="">
+            </div>
+            <div class="social-media">
+                <img src="assets/img/twitter.svg" alt="" srcset="">
+                <img src="assets/img/instagram.svg" alt="" srcset="">
+                <img src="assets/img/facebook.svg" alt="" srcset="">
+            </div>
+        </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

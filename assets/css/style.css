@@ -199,3 +199,204 @@ margin-left: 130px;
 .feature-two-ilus img{
     margin-right: 120px;
 }
+
+section.pricing{
+    padding: 64px;
+    margin-top: 190px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-light-green{
+    background-color: #F2FFF3;
+    border-radius: 40px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 56px;
+    color: #242424;
+}
+
+.heading p{
+    font-size: 20px;
+    color: #626262;
+    margin-top: 8px;
+}
+
+.switcher{
+    background-color: #D3FFD6;
+    padding: 8px;
+    border-radius: 100px;
+    margin-top: 28px;
+}
+
+button.btn-on-tab{
+    background-color: #079911;
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 100px;
+    font-weight: 500;
+    border: none;
+}
+
+button.btn-off-tab{
+    background-color: transparent;
+    color: #A0A0A0;
+    font-weight: 500;
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+}
+
+.row-card-pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 48px;
+    margin-top: 32px;
+}
+
+.card-pricing{
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.description-pricing{
+    height: 25vh;
+}
+
+.description-pricing h2{
+    font-size: 24px;
+    color: #242424;
+}
+
+.description-pricing h1{
+    font-size: 48px;
+}
+
+.description-pricing h1 span{
+    font-size: 24px;
+}
+.feature-list{
+    margin-top: 12px;
+}
+
+.feature-list p{
+    color: #242424;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.feature-list img{
+margin-right: 4px;
+}
+
+button.bg-dark{
+    background-color: #242424;
+}
+
+.card-primary h2,.card-primary h1, .card-primary{
+    color: #079911;
+}
+
+.heading-testi{
+    font-size: 44px;
+    width: 90%;
+    color: #242424;
+    line-height: 68px;
+}
+
+section.testimonial{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    margin: 235px 0;
+}
+
+.reviewer{
+    display: flex;
+}
+
+.description-testi{
+    margin-top: 72px;
+}
+
+.description-testi h3{
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #242424;
+}
+
+.description-testi p{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.label-user{
+    color: #079911;
+    font-weight: 500;
+}
+
+.tab{
+    display: flex;
+    width: 10vh;
+    justify-content: space-between;
+    margin: 44px 0;
+}
+.tab span{
+    background-color: transparent;
+    border: 1px solid #242424;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.tab span.active{
+    background-color: #242424;
+    border: 1px solid #242424;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+section.jumbotron{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    margin: 100px 0;
+    padding: 64px;
+}
+.single-centered-cta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-jumbotron h1{
+    font-size: 48px;
+}
+
+.description-jumbotron p{
+    width: 70%;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
