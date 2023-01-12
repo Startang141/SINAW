@@ -399,3 +399,12 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+.sidebar{
+    position: fixed;
+    width: 240px;
+    left: -240px;
+    height: 100%;
+    background: #D3FFD6;
+    transition: all .5s ease;
+}
